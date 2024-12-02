@@ -1,3 +1,4 @@
+![logo](https://github.com/user-attachments/assets/eb2f68f6-481c-4fcd-a688-c585dfdc149e)
 # Studio530
 
 Este proyecto representa la página oficial de Studio530. Diseñada para mostrar servicios, conectar con clientes y crear experiencias únicas.
