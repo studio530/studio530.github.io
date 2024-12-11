@@ -56,3 +56,12 @@ form {
     gap: 10px;
     max-width: 300px;
 }
+
+/* Estilos para las imágenes de ejemplo */
+.example-images img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
