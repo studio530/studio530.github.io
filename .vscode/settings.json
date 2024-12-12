@@ -2,5 +2,5 @@
     "liveServer.settings.CustomBrowser": "firefox:PrivateMode",
     "liveServer.settings.useLocalIp": true,
     "liveServer.settings.fullReload": true,
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "remote-debbuging-port-9222"
 }
