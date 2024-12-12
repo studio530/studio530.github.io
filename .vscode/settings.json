@@ -2,5 +2,15 @@
     "liveServer.settings.CustomBrowser": "firefox:PrivateMode",
     "liveServer.settings.useLocalIp": true,
     "liveServer.settings.fullReload": true,
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "remote-debbuging-port-8080",
+    "java.classPath": [
+        "html"
+    ],
+    "java.debugTestMethod": [
+        "poet 8080"
+    ],
+    "java.docPath": [
+        "Users\\rodri\\530\\studio530.github.io\\studio530.github.io"
+    ],
+    "java.trace.server": "messages"
 }
