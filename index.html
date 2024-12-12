@@ -1,88 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio530</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="icon" href="images\logos_color\1.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <nav>
-            <div class="logo">
-                <img src="images\logos_color\1.png" alt="Studio530 Logo">
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Welcome to Studio530</h1>
+            <p>Your gateway to creativity and innovation</p>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-slider">
-            <div class="slide" style="background-image: url('images\banners\1.jpg');"></div>
-            <div class="slide" style="background-image: url('assets/images/banners/2.jpg');"></div>
-            <div class="slide" style="background-image: url('assets/images/banners/3.jpg');"></div>
-        </div>
-        <div class="hero-text">
-            <h1>Welcome to Studio530</h1>
-            <p>Your creative partner for web solutions</p>
-        </div>
-    </section>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Studio530 is a creative space dedicated to providing unique and inspiring designs. Explore our portfolio and discover how we can bring your vision to life.</p>
+                <img src="images/about.jpg" alt="About Studio530">
+            </div>
+        </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Studio530 is dedicated to delivering exceptional design and functionality for web projects.</p>
-    </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="gallery">
+                    <img src="images/portfolio1.jpg" alt="Portfolio item 1">
+                    <img src="images/portfolio2.jpg" alt="Portfolio item 2">
+                    <img src="images/portfolio3.jpg" alt="Portfolio item 3">
+                </div>
+            </div>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <img src="assets/images/presentations/1.jpg" alt="Service 1">
-            <h3>Web Design</h3>
-        </div>
-        <div class="service">
-            <img src="assets/images/presentations/2.jpg" alt="Service 2">
-            <h3>Development</h3>
-        </div>
-        <div class="service">
-            <img src="assets/images/presentations/3.jpg" alt="Service 3">
-            <h3>Branding</h3>
-        </div>
-    </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>We would love to hear from you! Feel free to reach out through our social media channels or via email.</p>
+            </div>
+        </section>
+    </main>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Studio530. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Studio530. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script src="./assets/js/scripts.js"></script>
-
-<!-- Ejemplo de imágenes -->
-<div class="example-images">
-    <img src="images/backgrounds/1.png" alt="Fondo 1">
-    <img src="images/banners/1.jpg" alt="Banner 1">
-    <img src="images/logos_color/1.png" alt="Logo color 1">
-</div>
-
 </body>
 </html>
